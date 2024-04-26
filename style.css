@@ -54,6 +54,11 @@
   }
 }
 
+.project_flex {
+  display: flex;
+  flex-direction: column;
+}
+
 .canvasposition {
   position: fixed;
   bottom: 30px;
@@ -66,7 +71,7 @@
 .flip-card {
   background-color: transparent;
   width: 300px;
-  height: 300px;
+  height: 287px;
   perspective: 1000px;
   align-items: center;
 }
@@ -121,6 +126,9 @@
   border-bottom: 1px solid #35df01;
 }
 
-#aboutme, #skills, #project, #contactform {
-  scroll-margin-top:120px;
+#aboutme,
+#skills,
+#project,
+#contactform {
+  scroll-margin-top: 120px;
 }
